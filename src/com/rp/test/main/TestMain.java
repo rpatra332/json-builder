@@ -7,8 +7,8 @@ public class TestMain {
 
 	public static void main(String[] args) {
 		Person person = new Person("Rohit", 10, true);
-		JsonSerializer.toJson(person);
-		JsonSerializer.toJson(null);
+		System.out.println(JsonSerializer.toJson(person));
+		System.out.println(JsonSerializer.toJson(null));
 	}
 
 }
